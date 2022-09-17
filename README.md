@@ -1,6 +1,6 @@
 # hm3
 - HomeWork
-- 
+
 `docker build -t dkasymov_hm:0.1 .`
 
 `docker run -d dkasymov_hm:0.1`
