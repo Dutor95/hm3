@@ -18,9 +18,9 @@ jobs:
     - name: step2
       run: pwd 
 
-  job-2:
-    runs-on: ubuntu-latest
-   steps:
-    - name: step3
-      run: ls
+job-2:
+  runs-on: ubuntu-latest
+  steps:
+  - name: step3
+    run: ls
 
