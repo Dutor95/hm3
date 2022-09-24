@@ -1,10 +1,19 @@
 name: hello-world
 
-on: push
+#on: push
+
+on:
+  push:
+    branches: [ "main" ]
+  pull-request:
+    branches: [ "main" ]
+
 
 jobs:
   hello-job: 
     runs-on: ubuntu-latest
     steps:
-    - name: my-steps
+    - name: step1
       run: echo "Hello World"
+    - name: step2
+      run: pwd  
